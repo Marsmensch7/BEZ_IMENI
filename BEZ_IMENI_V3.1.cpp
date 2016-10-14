@@ -89,9 +89,18 @@ void MoveUFO(int x, int y, int dir)
 
 
 
-
-     txTextOut (100, 100, "111111111111111111111111111111111111");
-
+ txSetColor (TX_BLACK);
+txTextOut (100, 100, "H");
+txSleep(300);
+txTextOut (100, 100, "He");
+txSleep(300);
+txTextOut (100, 100, "Hel");
+txSleep(300);
+txTextOut (100, 100, "Hell");
+txSleep(300);
+txTextOut (100, 100, "Hello");
+txSleep(300);
+//txSetColor (TX_TRANSPARENT);
     }
 ////////////////////////////////////////////////////////////////////
 
