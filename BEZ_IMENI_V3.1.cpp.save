@@ -19,7 +19,6 @@ void KirpichicWithHands(int x, int y, int size);
 void UFO(int x, int y);
 void MoveUFO(int x, int y, int dir);
 int meow ()
-
     {
 
         txCreateWindow (1600, 900);
@@ -43,9 +42,7 @@ int meow ()
 
         return 0;
     }
-
-////////////////////////////////////////////////////////////////////
-
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
 void MoveUFO(int x, int y, int dir)
     {
     while (x < 1300)
@@ -102,10 +99,7 @@ txTextOut (100, 100, "Hello");
 txSleep(300);
 //txSetColor (TX_TRANSPARENT);
     }
-////////////////////////////////////////////////////////////////////
-
-
-
+//<><>
 
 void KirpichicMove (int x, int y)
     {
@@ -188,7 +182,6 @@ void KirpichicMove (int x, int y)
 
     }
 ////////////////////////////////////////////////////////////////////
-
 
 //{ I want to HIDE eat! ))))
 
@@ -397,9 +390,6 @@ void Car(int x, int y)
     }
     */
 
-
-
-
     //350   600
     void Dub(int x, int y)
     {
@@ -450,7 +440,6 @@ void UFO(int x, int y)
 
     }
 ////////////////////////////////////////////////////////////////////
-
 
 //--//--//--//--//--//--//--//--//--//--//--//--//--//
 
